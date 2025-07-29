@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sourav Debnath - Research Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #0f1117;
+      color: #fff;
+      display: flex;
+      min-height: 100vh;
+    }
+
+    aside {
+      width: 320px;
+      background-color: #151820;
+      padding: 40px 25px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    aside img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    aside h1 {
+      font-size: 1.4em;
+      margin: 15px 0;
+    }
+
+    aside .icons a {
+      color: white;
+      margin: 0 12px;
+      font-size: 1.6em;
+    }
+
+    aside nav {
+      margin-top: 50px;
+      text-align: left;
+      width: 100%;
+    }
+
+    aside nav a {
+      display: block;
+      padding: 14px 0;
+      font-size: 1.1em;
+      color: #ccc;
+      text-decoration: none;
+      border-left: 4px solid transparent;
+      padding-left: 20px;
+    }
+
+    aside nav a:hover {
+      color: white;
+      border-left-color: #29b6f6;
+    }
+
+    main {
+      flex-grow: 1;
+      background-color: #f2f4f8;
+      color: #222;
+      padding: 40px 30px;
+      overflow-y: auto;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #1a237e;
+      border-left: 5px solid #1a237e;
+      padding-left: 10px;
+    }
+
+    .interests {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .interest-item {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .interest-item img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #999;
+      padding-top: 20px;
+    }
+
+    a {
+      color: #1a237e;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <aside>
+    <img src="https://scontent.fdac80-1.fna.fbcdn.net/v/t39.30808-6/489990453_2032323233919379_2465697726265158593_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH25Lir14XCDyQU2adSQPlyOXuo-WLxdnE5e6j5YvF2cWjpPZDDdsl9PgTyAfLsiNGybAdtHHDKUqW8yVtRCsiU&_nc_ohc=Yk18bkvMJG0Q7kNvwET_fT7&_nc_oc=Adlhbvwxn0lE2vk9_ZjrehD7rX2lsYsHNGacCgXWCfxf4eixK5dRPtCo-jgO-om-YdU&_nc_zt=23&_nc_ht=scontent.fdac80-1.fna&_nc_gid=qRHggcI-S5AwHgGR_0UjVQ&oh=00_AfT-p2zif0od9oO6kmdHwSpejy7qWYdGv4-Vl9OaQCSWRg&oe=688EC2EF" alt="Sourav Debnath">
+    <h1>Sourav Debnath</h1>
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/sourav-debnath-990a51194/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://scholar.google.com/citations?user=HK4i0h4AAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+    </div>
+    <nav>
+      <a href="#interests">Research Interests</a>
+      <a href="#experience">Research Experience</a>
+      <a href="#publications">Publications</a>
+      <a href="#achievements">Achievements</a>
+    </nav>
+  </aside>
+
+  <main>
+    <section id="interests">
+      <h2>Research Interests</h2>
+      <div class="interests">
+        <div class="interest-item">
+          <img src="https://img.icons8.com/fluency/96/wifi.png" alt="Wireless">
+          <div>Wireless Communications</div>
+        </div>
+        <div class="interest-item">
+          <img src="https://img.icons8.com/color/96/brain.png" alt="Biomedical">
+          <div>Biomedical Engineering</div>
+        </div>
+        <div class="interest-item">
+          <img src="https://img.icons8.com/color/96/image.png" alt="Image Processing">
+          <div>Image Processing</div>
+        </div>
+        <div class="interest-item">
+          <img src="https://www.enclustra.com/assets/images/services/Enclustra_Digital_Signal_Processing_with_FPGA.jpg" alt="DSP">
+          <div>Digital Signal Processing</div>
+        </div>
+        <div class="interest-item">
+          <img src="https://img.icons8.com/fluency/96/internet-of-things.png" alt="IoT">
+          <div>Internet of Things (IoT)</div>
+        </div>
+        <div class="interest-item">
+          <img src="https://img.icons8.com/color/96/artificial-intelligence.png" alt="ML">
+          <div>Machine Learning</div>
+        </div>
+        <div class="interest-item">
+          <img src="https://img.icons8.com/color/96/virtual-reality.png" alt="VR">
+          <div>Virtual Reality</div>
+        </div>
+        <div class="interest-item">
+          <img src="https://assets.aboutamazon.com/dims4/default/aad143f/2147483647/strip/true/crop/4093x2304+7+0/resize/2480x1396!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F36%2F59%2Feba4adcc4f88a972b5639ed1dde0%2Fadobestock-712831308.jpeg" alt="AI">
+          <div>Artificial Intelligence</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Research Experience</h2>
+      <ul>
+        <li><b>Thesis:</b> “Comparative Study of Filtered Multicarrier Modulation for 5G and Beyond Wireless Systems” — Supervisor: S. M. Shamsul Alam</li>
+        <li><b>2025:</b> fMRI Emotion Classification through an Image-based Approach via Deep Learning (On going)</li>
+        <li><b>2024:</b> Analysis of Filtered Multicarrier Modulation Techniques Using Different Windows for 5G and Beyond Wireless Systems</li>
+        <li><b>2023:</b> Performance Comparison of OFDM, FBMC, and UFMC for Identifying the Optimal Solution for 5G Communications</li>
+        <li><b>2022:</b> Epileptic Seizure Detection from EEG Signal Using ANN-LSTM Model</li>
+        <li><b>2021:</b> Predictive Analysis for Risk of Stroke Using ML Techniques</li>
+        <li><b>2021:</b> Low-Cost Smart COVID-19 Patient Monitoring and Support System</li>
+        <li><b>2019:</b> IoT-based Gas Leakage, Fire, and Temperature Detection with Call Facilities</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li>Debnath, S., Ahmed, S., & Alam, S.M., <i>"Analysis of Filtered Multicarrier Modulation Techniques Using Different Windows for 5G and Beyond Wireless Systems"</i>, <b>WCMC</b>, 2024.<a href=" https://doi.org/10.1155/2024/9428292" target="_blank">DOI</a></li>
+        <li>Debnath, S., et al., <i>"Performance Comparison of OFDM, FBMC, and UFMC for Identifying the Optimal Solution for 5G Communications"</i>, <b>IJWMT</b>, 2023. <a href="https://doi.org/10.5815/ijwmt.2023.05.01" target="_blank">DOI</a></li>
+        <li>Islam, R., Debnath, S., et al., <i>"Epileptic Seizure Detection from EEG Signal Using ANN-LSTM Model"</i>, <b>TEHI</b>, 2022. <a href="https://doi.org/10.1007/978-981-99-1916-1_10" target="_blank">Springer</a></li>
+        <li>Islam, R., Debnath, S., et al., <i>"Predictive Analysis for Risk of Stroke Using Machine Learning Techniques"</i>, <b>IC4ME2</b>, 2021. <a href="https://doi.org/10.1109/IC4ME253898.2021.9768524" target="_blank">DOI</a></li>
+        <li>Palash, T. I., Islam, R., Debnath, S., <i>"Low-Cost Smart COVID-19 Patient Monitoring and Support System"</i>, <b>IC4ME2</b>, 2021. <a href="https://doi.org/10.1109/IC4ME253898.2021.9768592" target="_blank">DOI</a></li>
+        <li>Debnath, S., et al., <i>"IoT based Low-Cost Gas Leakage, Fire, and Temperature Detection System with Call Facilities"</i>, <b>ICAICT</b>, 2020. <a href="https://doi.org/10.1109/ICAICT51780.2020.9333530" target="_blank">DOI</a></li>
+      </ul>
+    </section>
+
+    <section id="achievements">
+      <h2>Achievements & Activities</h2>
+      <ul>
+        <li>🏆 Best Employee Award for Data Center Project</li>
+        <li>🤖 Participated in “Spectrum” Robotics Project Fair at Khulna University</li>
+        <li>👨‍🏫 Instructor at Router Club, Khulna University</li>
+        <li>🎓 Merit Scholarship from ECE Discipline, Khulna University</li>
+      </ul>
+    </section>
+
+    <footer>
+      &copy; 2025 Sourav Debnath | Academic use
+    </footer>
+  </main>
+
+</body>
+</html>
